@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 checkout scm
-                sh 'echo "Hello World"'
+                sh 'mvn clean package'
                 sh '''
                     echo "Multiline shell steps works too"
                     ls -lah
