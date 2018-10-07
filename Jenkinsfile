@@ -6,7 +6,7 @@ pipeline {
                 checkout scm
                 sh 'mvn clean package'
                 sh '''
-                    echo "Multiline shell steps works too"
+                    echo "Multibkjhskhine shell steps works too"
                     ls -lah
                 '''
             }
