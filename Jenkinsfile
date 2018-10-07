@@ -6,7 +6,7 @@ pipeline {
                 checkout scm
                 sh 'echo "Hello World"'
                 sh '''
-                    echo "Multiline shell steps works too"
+                    echo "Multiline shell steps works too. I know."
                     ls -lah
                 '''
             }
